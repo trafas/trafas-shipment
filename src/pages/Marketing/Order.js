@@ -346,7 +346,7 @@ function EmployeeTable({ orderList }) {
     const [value, setValue] = useState(globalFilter);
     const onChange = useAsyncDebounce((value) => {
       setGlobalFilter(value || undefined);
-    }, 500);
+    }, 2000);
 
     return (
       <Label className="mb-3">

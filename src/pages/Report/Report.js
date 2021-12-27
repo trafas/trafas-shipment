@@ -376,7 +376,7 @@ function ReportTable({ reportList }) {
     const [value, setValue] = useState(globalFilter);
     const onChange = useAsyncDebounce((value) => {
       setGlobalFilter(value || undefined);
-    }, 500);
+    }, 3000);
 
     return (
       <Label className="mb-3">

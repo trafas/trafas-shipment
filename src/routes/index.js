@@ -153,6 +153,8 @@ const routes = [
       "staff_logistic",
       "admin_courier",
       "staff_courier",
+      'admin_marketing',
+      'staff_marketing'
     ],
   },
 ];
